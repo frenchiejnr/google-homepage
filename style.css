@@ -7,20 +7,32 @@
 
 #logo {
     padding-top: 109px;
+    padding-bottom: 2rem;
 }
 
 .searchbox {
     display:flex;
     border: 1px;
-    border-color: black;
+    border-color: grey;
     border-style: solid;
     padding: 5px 0px;
-    border-radius: 20px;
+    border-radius: 30px;
+    width: 42.5%;
+}
+
+.search-icon, 
+.microphone-icon {
+  padding: 10px;
+}
+
+.microphone-icon {
+  margin-left: auto;
 }
 
 #search-textbox {
     border: 0px none;
     outline: none;
+    width: 100%;
 }
 
 .svg-icon {
@@ -31,7 +43,7 @@
   .svg-icon path,
   .svg-icon polygon,
   .svg-icon rect {
-    fill: #4691f6;
+    fill: grey;
   }
   
   .svg-icon circle {
