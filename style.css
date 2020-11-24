@@ -1,0 +1,40 @@
+#logo-and-searchbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#logo {
+    padding-top: 109px;
+}
+
+.searchbox {
+    display:flex;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    padding: 5px 0px;
+    border-radius: 20px;
+}
+
+#search-textbox {
+    border: 0px none;
+    outline: none;
+}
+
+.svg-icon {
+    width: 1em;
+    height: 1em;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #4691f6;
+  }
+  
+  .svg-icon circle {
+    stroke: #4691f6;
+    stroke-width: 1;
+  }
