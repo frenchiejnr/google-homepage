@@ -57,21 +57,36 @@ ul {
   padding: 0;
 }
 
-.navbar{
+.navbar, .footer{
   display: flex;
   flex-direction: row;
 }
 
-.navbar-left {
+.navbar-left, .footer-left {
   display: flex;
   flex-direction: row;
   margin-right: auto;
 }
-.navbar-right {
+.navbar-right, .footer-right {
   display: flex;
   flex-direction: row;
   justify-items: flex-end;
   margin-left: auto;
+}
+
+.footer-center {
+  flex: 1;
+  margin: auto;
+  justify-content: center;
+}
+
+.footer-left {
+  flex: 2;
+}
+
+.footer-right {
+  flex: 2;
+  justify-content: flex-end;
 }
 
 .navbar-link {
@@ -84,3 +99,12 @@ ul {
   font-family: Arial, Helvetica, sans-serif;
   font-size: .8rem;
 }
+
+.footer-link {
+  padding: 10px;
+}
+
+.footer-box {
+  display: flex;
+}
+
