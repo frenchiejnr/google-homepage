@@ -12,8 +12,8 @@
 
 .searchbox {
     display:flex;
-    border: 1px;
-    border-color: grey;
+    border-width: thin;
+    border-color: #dfe1e5;
     border-style: solid;
     padding: 5px 0px;
     border-radius: 30px;
