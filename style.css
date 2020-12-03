@@ -1,6 +1,5 @@
 #logo-and-searchbox {
     display: flex;
-
     align-items: center;
     flex-direction: column;
     flex: 1 0 auto;
@@ -63,6 +62,12 @@ ul {
   flex-direction: row;
 }
 
+.navbar {
+  margin: 10px;
+  margin-top: 20px;
+  align-items: flex-end;
+  }
+
 .navbar-left, .footer-left {
   display: flex;
   flex-direction: row;
@@ -71,7 +76,6 @@ ul {
 .navbar-right, .footer-right {
   display: flex;
   flex-direction: row;
-  justify-items: flex-end;
   margin-left: auto;
 }
 
@@ -90,15 +94,12 @@ ul {
   justify-content: flex-end;
 }
 
-.navbar-link {
-  padding: 10px;
-}
-
-.navbar-link > a {
+.navbar-link a {
   text-decoration: none;
-  color: grey;
+  color: rgb(0, 0, 0);
   font-family: Arial, Helvetica, sans-serif;
-  font-size: .8rem;
+  font-size: 13px;
+  opacity: 0.75;
 }
 
 .footer-link {
@@ -109,11 +110,11 @@ ul {
   display: flex;
 }
 
-.footer-link > a {
+.footer-link a {
   text-decoration: none;
   color: grey;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: .8rem;
+  font-size: 13px;
 }
 
 body {
@@ -135,6 +136,34 @@ html, body {
   align-items: center;
 }
 
-.search-buttons > button {
+.search-buttons button {
   margin: 20px 5px;
+}
+
+
+.google-apps-menu {
+  height: 20px;
+  width: 20px;
+}
+
+.navbar a{
+  padding-left: 15px;
+}
+
+.navbar button {
+  color:#fff;
+  background-image: -webkit-linear-gradient(top, rgb(67,135,253),rgb(70,131,234));
+  border: 1px solid #4285f4;
+  font-weight: bold;
+  outline: none;
+  background: -webkit-linear-gradient(top, #4387fd#4683ea);
+  padding-left: 12px;
+  padding-right: 12px;
+
+  font-size: 13px;
+  line-height: 28px;
+
+  margin-top: -10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
