@@ -119,6 +119,7 @@ ul {
 body {
   display: flex;
   flex-direction: column;
+  margin: 0; /* to prevent vertical scrollbar */
 }
 
 .footer {
@@ -126,7 +127,7 @@ body {
 }
 
 html, body {
-  height: 100%;
+  height: 100vh;
 }
 
 .search-buttons {
