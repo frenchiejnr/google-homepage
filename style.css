@@ -80,7 +80,7 @@ ul {
 }
 
 .footer-center {
-  flex: 1;
+  flex: 1.5;
   margin: auto;
   justify-content: center;
 }
@@ -169,4 +169,9 @@ html, body {
   margin-top: -10px;
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.leaf {
+  width: 12.5px;
+  height: 14px;
 }
